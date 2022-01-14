@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GranaWeb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <style>
+      footer {
+        background-color:#1A1A1A;
+        height: 50%;
+        color: white;
+        padding: 15px;
+      }
+
+      .main1 { 
+        display:flex;
+        margin:0 auto;
+      }
+
+      a img:hover {
+          color: #fff;
+      }
+    </style>
+  </head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand">GranaWeb</a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </main>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Imagen-corporativa-de-la-empresa-800x474.jpg" class="d-block w-100" alt="" width="800px" height="800px">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h5>Beneficios de utilizarnos</h5>
+                  <p>Somos una empresa muy eficaz y segura</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Gestión-laboral-810x455.png" class="d-block w-100" alt="" width="9000px" height="800px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Equipos de ultima generación</h5>
+                  <p>Ya que somos una empresa nueva contamos con todo tipo de equipos de última generación.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Que-entendemos-por-empresa-digital.jpg" class="d-block w-100" alt="" width="900px" hidden="800px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Personal Muy Cualificado</h5>
+                  <p>Contamos con los mejores expertos del mercado.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </button>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./img/servicio-experto_confianza.jpg" alt="" width="100%">
+                <h5>Tu experto de confianza</h5>
+                <p>Ahora podrás resolver todas tus dudas de manera individual y en persona con uno de nuestros expertos. Un servicio aplicable a la categoría de televisiones*, al navegar por las fichas de producto de TV se te dará la opción de agendar una cita virtual por videoconferencia con uno de ellos.</p>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/servicio-reparaciones.jpg" alt="" width="100%">
+                <h5>Servicio de reparaciones</h5>
+                <p>No te preocupes, examinaremos al detalle tu dispositivo para reparar aquello que no esté funcionando y dejarlo en perfecto estado.</p>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/servicio-asistencia_tecnica.jpg" alt="" width="100%">
+                <h5>Asistencia técnica</h5>
+                <p>Nuestro equipo humano se prepara a conciencia para resolver tus dudas, tus problemas, y hacer que tengas toda la información posible a mano.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p>En Granaweb no solo vendemos tecnología. Aquí descubrirás todos los servicios que ofrecemos. Si buscas vender tu móvil, tenemos disponible el servicio de compra-venta. Si necesitas reparar cualquier artículo, un móvil, el portátil o componentes de tu PC, nosotros lo arreglaremos. Encuentra aquí todos nuestros Servicios especializados disponibles para todos nuestros clientes y usuarios.</p>
+            <h3></h3>Reparaciones de artículos tecnológicos</h3>
+            <p>Disponible para todos los productos que lo necesiten. Si necesitas reparar tu ordenador de sobremesa, portátil, móvil, un televisor o cualquier electrodoméstico, ponte en contacto con nuestros expertos en reparaciones, ellos revisarán tu caso y te ofrecerán la mejor solución.</p>
+            <h3>Asistencia técnica online</h3>
+            <p>Además contamos con nuestro habitual servicio de soporte online. Para que puedas solucionar el problema que tengas con tu producto recién comprado en nuestra web lo más rápido posible. Si lo que has comprado tiene cualquier problema o no puedes configurarlo, consulta en nuestro centro de soporte, te ayudarán con todo lo que necesites.</p>
+            <h3>Y si lo que te ha llegado no está bien, te lo sustituímos</h3>
+            <p>Si crees que el producto que has comprado ha llegado en mal estado o no funciona correctamente, tenemos a tu disposición nuestro servicio de sustitución 24 horas, para que puedas cambiarlo por otro sin ningún problema. En el caso de que un producto que compraste no funcione como debería, nuestro servicio de garantía de sustitución te solucionará el problema lo antes posible.</p>
+            <h3>Compramos tu móvil usado</h3>
+            <p>Si quieres vender tu viejo móvil, estás de suerte. Porque en Granaweb ahora ya no solo vendemos lo último en smartphone, también te compramos tu antiguo móvil. Si tienes un teléfono que quieres vender, está en buen estado y crees que a alguien le puede venir bien, nosotros te lo compramos y le buscamos un dueño. Es un servicio dentro de nuestro compromiso con la reducción de emisiones CO2. Buscamos una segunda vida a productos que puedan tenerla. Reciclar está de moda.</p>
+          </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <h6 class="lead">CONTACTO:</h6>
+                <h6 class="">
+                Carrera 8h No. 166-71 Local 2<br>
+                Santa Cruz de la Ronda.<br>
+                Teléfonos: 3115988953 – 3112641818.<br>
+                </h6>
+            </div>
+            <div class="col-xs-12 col-md-6">
+            <div class="pull-right">
+            <h6 class="lead">ENCUENTRANOS EN LAS REDES</h6>
+                  <div class="redes-footer">
+                      <a href="https://www.facebook.com/"><img src="img/facebook.png" width="10%"></a>
+                      <a href="https://twitter.com/"><img src="img/twitter.png" width="10%"></a>
+                      <a href="https://www.youtube.com/"><img src="img/youTube.png" width="10%"></a>
+                  </div>
+            </div>
+            <div class="row"> <p class=" small text-right">Adrian Barranco Gómez, 2ºASIR @2022.<br> Todos los derechos reservados.</p></div>
+        </div>
+      </div>  
+    </div>
+    </footer>
+</body>
+</html>
